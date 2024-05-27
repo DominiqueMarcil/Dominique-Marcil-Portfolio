@@ -1,9 +1,5 @@
 @import "fonts.css";
 
-
-.navbar {
-}
-
 .nav-container {
     display: flex;
     justify-content: space-evenly;
@@ -49,4 +45,32 @@
 
 .nav-link:hover {
     color: #d8d628;
+}
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #777;
 }
