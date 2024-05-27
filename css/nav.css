@@ -1,0 +1,52 @@
+@import "fonts.css";
+
+
+.navbar {
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.brand, .nav-item {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.brand {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "montserrat", sans-serif;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 90px;
+    font-family: "montserrat", sans-serif; 
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #d8d628;
+}
